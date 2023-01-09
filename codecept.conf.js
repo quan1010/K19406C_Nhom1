@@ -42,7 +42,7 @@ exports.config = {
   hooks: [],
   gherkin: {
       features: './features/*.feature',
-      steps: ['./step_definitions/login.js', './step_definitions/steps']
+      steps: ['./step_definitions/login.js','./step_definitions/viewCreateCompanyPage.js','./step_definitions/create_company.js', './step_definitions/steps.js','./step_definitions/apikey.js']
   },
   plugins: {
       screenshotOnFail: {
@@ -59,6 +59,6 @@ exports.config = {
           timeout: 0
       }
   ],
-  tests: './*_test.js',
+  tests: 'feature/*.js',
   name: 'K19406C_Nhom1'
 }

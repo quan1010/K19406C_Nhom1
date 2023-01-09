@@ -1,3 +1,4 @@
 module.exports = {
-    loading: 5
+    loading: 5,
+    waitForElement: 60
 }

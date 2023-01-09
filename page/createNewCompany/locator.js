@@ -1,4 +1,5 @@
 module.exports = {
+    createNewCompanyButton: "//button//span[text()[contains(.,'Tạo một doanh nghiệp')]]",
     titleText: "//h4[text()[contains(.,'Tạo tài khoản doanh nghiệp')]]",
     websiteField: "//input[@formcontrolname='website']",
     companyNameField: "//input[@formcontrolname='name']",

@@ -1,7 +1,7 @@
-const timeout = require("../page/common/timeout")
+const timeout = require("../page/commons/timeout")
 const { I } = inject()
 module.exports = {
-    fieldValue(locator, value) {
+    fillValue(locator, value) {
         I.waitForVisible(locator, timeout.waitForElement)
         I.fillField(locator, value)
     },

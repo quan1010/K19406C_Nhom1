@@ -1,0 +1,22 @@
+module.exports = {
+    dangxuatText: "//span[text()='Đăng xuất']",
+    logoDiv: "//div[contains(@class,'div-portfolio ')]",
+    profileNameLabel: "//a[contains(@class,'mat-list-item')]//div//span[contains(@class,'mat-tooltip-trigger text-sm pl-3 ng-star-inserted')]",
+    // settings: "//span[contains(@class,'mat-content')]//p[contains(text(),'Thiết lập')]",
+    profileButton: "(//div[@class='mat-ripple mat-menu-ripple']//parent::button)[1]",
+    apiKeyMenuButton: "//*[text()='Api keys']",
+    apiTitle: "//a[contains(@class,'mat-list-item')]//span[contains(text(),'Api keys')]",
+    anotherSettingTitle: "//h4[contains(text(),'Api keys')]",
+    // apiTab: '//span[text()="Api keys"]',
+    createAPIButton: '//button[@class="mat-focus-indicator mat-raised-button mat-button-base"]',
+    nameField: '//input[@formcontrolname="name"]',
+    createandseenAPIButton: '//span[text()=" Tạo và xem API Key "]',
+    completeButton: '//span[text()="Xong"]',
+    modifyButton: "//*[contains(@class,'mat-icon') and text()='edit']",
+    deleteButton: "//*[contains(@class,'mat-icon') and text()='delete']",
+    modifyApiButton: "//span[text()=' Lưu thay đổi ']//parent::button",
+    modifydName: "(//div[@class='custom-name']//child::b)[1]",
+    confirmDeleteButton: "//*[text()=' Đồng ý ']",
+    alertDeleteSuccess: "//div[@role='alertdialog']",
+    check: '//b'
+}
